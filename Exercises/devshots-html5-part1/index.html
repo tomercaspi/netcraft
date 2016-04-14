@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Devshots-html4-part1</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div>
-    <ul>
-      <li><a href="#Devshots" title="DevShots">DEV SHOTS</a></li>
-      <li><a href="#devEvent" title="אירוע המפתחים"></a>אירוע המפתחים</li>
-      <li><a href="index.html" title="Netcraft home page"><img src="netcraftlogo.jpg" alt="netcraft"></a></li>
-    </ul>
+  <div class="mainHeader">
+      <h3 id="headerTitle"><strong>DEV SHOTS</strong></h3>
+      <h3>אירוע המפתחים</h3>
+      <a href="index.html" title="Netcraft home page"><img src="/netcraftlogo.jpg" alt="netcraft"></a>
   </div>
-  <div>
-    <img class="wideImage" src="Robot.jpg" alt="Robot image">
+  <div class=header-tile>
     <div>
       <h1>אירוע פיתוח<br>בראש טוב</h1>
       <p id="paragraphHeader">לדבר על טכנולוגיות מהחזית<br> ואתגרים שווים עם גיבורי<br>יום-יום כמוכם</p>
@@ -109,7 +107,7 @@
         <label for="haveFriends">יש חברים?</label>
         <input type="text" name="haveFriends" id="haveFriends" placeholder="יש לי מלא אבל אני בא לבד">
       </div>
-      <div>
+      <div class="submit-button">
         <button type="submit">זהו! שלח אותי</button>
       </div>
       
