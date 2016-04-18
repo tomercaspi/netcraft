@@ -3,115 +3,284 @@
 <head>
   <meta charset="UTF-8">
   <title>Devshots-html4-part1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div class="mainHeader">
-      <h3 id="headerTitle"><strong>DEV SHOTS</strong></h3>
-      <h3>אירוע המפתחים</h3>
-      <a href="index.html" title="Netcraft home page"><img src="/netcraftlogo.jpg" alt="netcraft"></a>
+
+  <!-- Main Header -->
+  <div class="mainHeader container">
+    <h3 id="headerTitle"><strong>DEV SHOTS</strong></h3>
+    <h3>אירוע המפתחים</h3>
+    <a href="index.html" title="Netcraft home page"><img src="/netcraftlogo.jpg" alt="netcraft"></a>
   </div>
-  <div class=header-tile>
+
+  <!-- Header Tile -->
+  <div class="header-tile container">
     <div>
       <h1>אירוע פיתוח<br>בראש טוב</h1>
       <p id="paragraphHeader">לדבר על טכנולוגיות מהחזית<br> ואתגרים שווים עם גיבורי<br>יום-יום כמוכם</p>
     </div>
   </div>
-  <div>
+
+  <!-- Middle-title -->
+  <div class="middle-title container">
     <h3>6 הרצאות מרתקות וקצרות </h3>
-    <span id="leftSentence" class="glyphicon glyphicon-time">15 דקות לכל הרצאה</span>
-    <hr>
-    <div class="shortLecture">
-      <img src="person1.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-      <div class="lectureDescription">
-        <h4>חומריות בעולם הדיגיטלי</h4>
-        <h5>רן לירון</h5>
-        <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-        <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
-      </div>
-    </div>
-    <div class="shortLecture">
-      <img src="person2.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-      <div class="lectureDescription">
-        <h4>חומריות בעולם הדיגיטלי</h4>
-        <h5>רן לירון</h5>
-        <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-        <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
-      </div>
-    </div>
-    <div class="shortLecture">
-      <img src="person3.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-      <div class="lectureDescription">
-        <h4>חומריות בעולם הדיגיטלי</h4>
-        <h5>רן לירון</h5>
-        <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-        <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
-      </div>
-    </div>
-    <hr>
+    <p id="leftSentence"><span class="glyphicon glyphicon-time"></span> 15 דקות לכל הרצאה </p>
+    <hr class="dashed-hr">
+  </div>
 
-    <div class="shortLecture">
-      <img src="person4.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-      <div class="lectureDescription">
-        <h4>חומריות בעולם הדיגיטלי</h4>
-        <h5>רן לירון</h5>
-        <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-        <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+  <!-- small lecture blocks -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 shortLecture">
+        <img src="person1.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 shortLecture">
+        <img src="person2.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 shortLecture">
+        <img src="person3.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
       </div>
     </div>
+    <hr class="dashed-hr">
+    <div class="row">
+      <div class="col-md-4 shortLecture">
+        <img src="person4.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
+      </div>
 
-    <div class="shortLecture">
-      <img src="person5.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-      <div class="lectureDescription">
-        <h4>חומריות בעולם הדיגיטלי</h4>
-        <h5>רן לירון</h5>
-        <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-        <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+      <div class="col-md-4 shortLecture">
+        <img src="person5.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
+      </div>
+
+      <div class="shortLecture">
+        <img src="person6.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
+        <div class="lectureDescription">
+          <h4>חומריות בעולם הדיגיטלי</h4>
+          <h5>רן לירון</h5>
+          <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
+          <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+        </div>
       </div>
     </div>
   </div>
-  <div class="shortLecture">
-    <img src="person6.jpg" width="100px" height="100px" alt="picture of Ran Liron" title="רן לירון">
-    <div class="lectureDescription">
-      <h4>חומריות בעולם הדיגיטלי</h4>
-      <h5>רן לירון</h5>
-      <p>ההרצאה תסקור את הרגלי השימוש,<br>הממשקים שעובדים, תשתף בסיפורים אנושיים<br>מעניינים ובעיקר תשנה את הדרך שבה אתם<br>חושבים על הגיל השלישי</p>
-      <p>ההרצאה מבוססת על מחקר וסדרה של<br>תצפיות משתמשים בארץ במגוון קורסי<br>אינטרנט לגיל השלישי. ההרצאה מבוססת על<br>מחקר ההרצאה תסקור את הרגלי השימוש</p>
+
+  <!-- Location section -->
+  <div class="Location container">
+    <div class="row">
+      <div class="col-md-4 location-map">
+        <a href="https://goo.gl/ZMHTSu" target="_blank"><img src="map.jpg" alt="Location map" title="מפת הגעה"></a>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4 location-details">
+        <h3>אז איפה שמים את האוטו?</h3>
+        <span>ועוד כמה פרטים חשובים...</span>
+        <h4>הערב יערך במועדון הסאבליים</h4>
+        <p>דרך שלמה 53 תל אביב</p>
+        <hr class="short-hr">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 hour"><strong>19:00</strong></div>
+              <div class="col-lg-6">
+                <p>מתחילים<br>בשעה:</p>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 hour"><strong>18:30</strong></div>
+              <div class="col-lg-6">
+                <p>מתכנסים<br>בשעה:</p>
+              </div>
+              
+            </div>            
+          </div>
+        </div>
+
+        <hr class="short-hr">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h5>אוטובוסים</h5>
+            <hr class="xtra-small-hr">
+            <ol>
+              <li>רכבת מרכז - 142, 42</li>
+              <li>תחנה מרכזית - 163, 201, 96</li>
+            </ol>
+          </div>
+          <div class="col-lg-6">
+            <h5>חניה</h5>
+            <hr class="xstra-small-hr">
+            <ol>
+              <li>חניון אלי פלט</li>
+              <li>רחוב אלפסי</li>
+              <li>רחוב חיים בן עטר</li>
+            </ol>
+          </div>
+
+        </div>
+      </div>
+
+
     </div>
   </div>
   
-  <div class="RegistrationForm">
+  <!-- Registration form section -->
+  <div class="RegistrationForm container">
     <h3>הרשמה</h3>
     <h5>הכניסה היא חינם אבל מספר המקומות מצומצם.</h5>
     <p class="small-white-text">נשמח אם תרשמו רק אם אתם באמת מתכוונים להגיע - כדי שלא נסרב למישהו אחר.</p>
+    <hr class="short-hr">
     <p class="small-white-text">כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד</p>
+    <hr class="short-hr">
 
     <form action="" method="post">
       <div class="input-container">
         <label for="fullName">שם מלא</label>
-        <input type="text" name="fullName" id="fullName" placeholder="רטי וגם משפחה">
+        <input type="text" name="fullName" id="fullName" placeholder=" פרטי וגם משפחה">
       </div>
       <div class="input-container">
         <label for="Role">תפקיד</label>
-        <input type="text" name="Role" id="Role" placeholder="תפקיד">
+        <input type="text" name="Role" id="Role" placeholder=" תפקיד">
       </div>
       <div class="input-container">
         <label for="ארגון">ארגון</label>
-        <input type="text" name="ארגון" id="ארגון" placeholder="מי משלם לכם משכורת">
+        <input type="text" name="ארגון" id="ארגון" placeholder=" מי משלם לכם משכורת">
       </div>
       <div class="input-container">
         <label for="phoneNumber">מספר טלפון</label>
-        <input type="text" name="phoneNumber" id="phoneNumber" placeholder="או סלולרי, לנו לא אכפת">
+        <input type="text" name="phoneNumber" id="phoneNumber" placeholder=" או סלולרי, לנו לא אכפת">
       </div>
       <div class="input-container">
         <label for="haveFriends">יש חברים?</label>
-        <input type="text" name="haveFriends" id="haveFriends" placeholder="יש לי מלא אבל אני בא לבד">
+        <input type="text" name="haveFriends" id="haveFriends" placeholder=" יש לי מלא אבל אני בא לבד">
       </div>
       <div class="submit-button">
         <button type="submit">זהו! שלח אותי</button>
-      </div>
-      
+      </div>      
     </form>
   </div>
+
+  <!-- Usefull information -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 information-box">
+        <div class="col-xs-2 col-xs-15">
+          <img src="pic1.jpg" width="100px" height="100px" alt="picture of HTML5" title="HTML5 picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic2.jpg" width="100px" height="100px" alt="picture of books" title="books picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic3.jpg" width="100px" height="100px" alt="picture of blogs" title="blog picture">
+          <div class="informationDescription">
+            <h5>בלוג נטקראפט</h5>
+            <p>בלוג של אנשי נטקראפט על<br>שימושיות, עיצוב, טכנולוגיה וכל<br>הדברים המעניינים באמת</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic4.jpg" width="100px" height="100px" alt="picture of website" title="website picture">
+          <div class="informationDescription">
+            <h5>לומדים חווית משתמש</h5>
+            <p>אתר NETCRAFTACADEMY<br>ללימוד חוויית משתמש</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic5.jpg" width="100px" height="100px" alt="picture of HTML5 course" title="HTML5 course picture">
+          <div class="informationDescription">
+            <h5>קורס HTML5</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="dashed-hr">
+
+    <div class="row">
+      <div class="col-xs-12 information-box">
+        <div class="col-xs-2 col-xs-15">
+          <img src="pic5.jpg" width="100px" height="100px" alt="picture of HTML5" title="HTML5 picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic6.jpg" width="100px" height="100px" alt="picture of books" title="books picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic7.jpg" width="100px" height="100px" alt="picture of blogs" title="blog picture">
+         <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic8.jpg" width="100px" height="100px" alt="picture of website" title="website picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+                <div class="col-xs-2 col-xs-15">
+          <img src="pic9.jpg" width="100px" height="100px" alt="picture of HTML5 course" title="HTML5 course picture">
+          <div class="informationDescription">
+            <h5>הספרים שכדאי לקרוא</h5>
+            <p>אספנו בשבילכם את רשימת<br>הספרים שכדאי שתקראו לפני<br>שאתם מתחילים</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Footer section -->
+      <div class="footer"></div>
 </body>
 </html>

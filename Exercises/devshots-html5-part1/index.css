@@ -3,3 +3,19 @@
 .header-tile {
   background-image: Robot.jpg
 }
+
+.dashed-hr {
+  border-top: 1px;
+  border-style: dashed;
+}
+
+.small-hr {
+  width: 300px;
+  border-top: 1px;
+  border-style: dashed;
+
+}.xtra-short-hr {
+  width: 140px;
+  border-top: 1px;
+  border-style: dashed;
+}
