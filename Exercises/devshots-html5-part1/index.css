@@ -19,3 +19,11 @@
   border-top: 1px;
   border-style: dashed;
 }
+
+.col-xs-15{
+    width:20%;
+}
+
+.location-map {
+  padding-top: 4%;
+}
